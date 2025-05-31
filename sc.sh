@@ -20,6 +20,3 @@ echo "manage_resolv_conf: false" > /etc/cloud/cloud.cfg.d/99-disable-resolv.conf
 
 # 重启服务
 systemctl restart systemd-resolved
-
-echo "✅ DNS 设置已完成！请确认如下输出是否正确："
-resolvectl status
